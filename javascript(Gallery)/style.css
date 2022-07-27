@@ -1,0 +1,42 @@
+body {
+			background: url('img/back.png');
+		}	
+		.myButton {
+			box-shadow:inset 0px 1px 0px 0px #54a3f7;
+			background-color:#007dc1;
+			border-radius:3px;
+			border:1px solid #124d77;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			padding:6px 24px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #154682;
+		}
+		.myButton:hover {
+			background-color:#0061a7;
+		}
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
+		.wrapper{
+			width: 1280px;
+			height: 720px;
+			margin: 10px auto;
+		}
+		.left_right{
+			position: absolute;
+			display: none;
+			cursor: pointer;
+			margin: -388px 0 0 10px;
+		}
+		img#images {
+			border: double black 6px;
+		}
+		#left, #right {
+			width: 70px;
+			height: 70px;
+			background: rgba(0,0,0, 0.7);
+			border-radius: 50%;
+		}

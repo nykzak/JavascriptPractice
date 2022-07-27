@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Галерея для сайта на JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div onMouseOver="btn_show()" onMouseOut="btn_noshow()" class="wrapper">
+			<script type="text/javascript" src="script.js">
+			</script>
+		<!-- Стрелочка влево -->
+		<div id="left" onclick="image(0)" class="left_right"><img src="img/left.png"></div>
+		<!-- Стрелочка вправо -->
+		<div id="right" onclick="image(1)" class="left_right" style="margin-left: 1200px; position: absolute; display: none;"><img src="img/right.png"></div>
+	</div>
+	<center><p style="font-size: 18px;color: #333;font-weight: bold;" id="num_img"></p></center>
+	<center><span class="myButton" onclick="image(0)">&lt;</span> <span class="myButton" onclick="image(1)">&gt;</span></center>
+</body>
+</html>
